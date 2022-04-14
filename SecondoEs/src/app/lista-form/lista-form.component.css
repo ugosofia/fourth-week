@@ -1,0 +1,10 @@
+ .list {
+     color:aqua;
+     background-color: aqua;
+ }
+
+ :host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
