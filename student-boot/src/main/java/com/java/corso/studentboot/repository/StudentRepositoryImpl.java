@@ -1,2 +1,5 @@
-package com.java.corso.studentboot.repository;public class StudentRepositoryImpl {
+package com.java.corso.studentboot.repository;
+
+public class StudentRepositoryImpl{
+
 }

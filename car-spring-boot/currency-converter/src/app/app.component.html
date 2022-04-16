@@ -1,0 +1,18 @@
+<div>
+  <div>
+    <simple-money [baseCurrencies]="baseCurrencies" [otherCurrencies]="currencies"
+      (updateExchangeRates)="onExchangeRateUpdate($event)" (errorMessage)="responseErrorMessage=$event">
+    </simple-money>
+    <div class="output-container">
+      <simple-loading-spinner *ngIf="isLoading"></simple-loading-spinner>
+      <simple-currency-list *ngIf="!isLoading" [rates]="newRates" [currencies]="currencies"
+        [responseErrorMessage]="responseErrorMessage">
+      </simple-currency-list>
+    </div>
+  </div>
+  <footer>
+    <p *ngIf="newRates">
+      Last Update: {{ newRates.date | date }}
+    </p>
+  </footer>
+</div>

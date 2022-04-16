@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  display: block;
+  background-color: rgba(161, 156, 156, 0.84);
+}
+
+button {
+  width: 30%;
+  height: 50px;
+  font-size: 40px;
+}
+
+.calcolatrice {
+  max-width: 300px;
+  margin: auto;
+}
+
+.risultato{
+  height: 60px;
+  background-color: #bbb;
+  width: 100%;
+}
+
+.risultato p {
+  font-size: 40px;
+  margin: 5px;
+}
